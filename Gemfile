@@ -21,21 +21,21 @@ gem 'imagesLoaded_rails', '4.1.0' # JavaScript - enable wait for image load
 gem 'jbuilder', '2.7.0'
 gem 'jquery-rails', '4.3.1' # JavaScript jQuery library (for Rails)
 gem 'jquery-ui-rails', '6.0.1' # JavaScript jQueryUI library (for Rails)
-gem 'lograge', '0.6.0' # Simplify logs
+gem 'lograge', '0.7.1' # Simplify logs
 gem 'mail', '2.6.6' # Ruby mail handler
 gem 'octokit', '4.7.0' # GitHub's official Ruby API
 gem 'omniauth-github', '1.3.0' # Authentication to GitHub (get project info)
 gem 'paleta', '0.3.0' # Color manipulation, used for badges
-gem 'paper_trail', '7.1.2' # Record previous versions of project data
+gem 'paper_trail', '7.1.3' # Record previous versions of project data
 gem 'pg', '0.21.0' # PostgreSQL database, used for data storage
-gem 'pg_search', '2.1.0' # PostgreSQL full-text search
+gem 'pg_search', '2.1.1' # PostgreSQL full-text search
 gem 'puma', '3.10.0' # Faster webserver; recommended by Heroku
-gem 'rails', '5.1.3' # Our web framework
+gem 'rails', '5.1.4' # Our web framework
 gem 'rails-i18n', '5.0.4' # Localizations for Rails built-ins
 gem 'redcarpet', '3.4.0' # Process markdown in form textareas (justifications)
 gem 'sass-rails', '5.0.6', require: false
-gem 'scout_apm', '2.1.31' # Monitor for memory leaks
-gem 'secure_headers', '3.7.0' # Add hardening measures to HTTP headers
+gem 'scout_apm', '2.1.32' # Monitor for memory leaks
+gem 'secure_headers', '4.0.0' # Add hardening measures to HTTP headers
 gem 'uglifier', '3.2.0', require: false # Minify JavaScript
 gem 'will-paginate-i18n', '0.1.15' # Provide will-paginate translations
 gem 'will_paginate', '3.1.6' # Paginate results (next/previous)
@@ -48,14 +48,14 @@ group :development, :test do
   gem 'dotenv-rails', '2.2.1'
   gem 'eslintrb', '2.1.0'
   gem 'json', '2.1.0'
-  gem 'license_finder', '3.0.2'
+  gem 'license_finder', '3.0.4'
   gem 'mdl', '0.4.0'
   gem 'pronto', '0.9.5'
   gem 'pronto-brakeman', '0.9.0'
   gem 'pronto-eslint', '0.9.1'
   gem 'pronto-rails_best_practices', '0.9.0'
   gem 'pronto-rubocop', '0.9.0'
-  gem 'rubocop', '0.49.1' # Style checker.  Changes can cause test failure
+  gem 'rubocop', '0.50.0' # Style checker.  Changes can cause test failure
   gem 'ruby-graphviz', '1.2.3' # This is used for bundle viz
   gem 'spring', '2.0.2' # Preloads app so console, rake, and tests run faster
   gem 'vcr', '3.0.3' # Record network responses for later test reuse
@@ -87,7 +87,7 @@ group :test do
   gem 'poltergeist', '1.16.0', require: false
   gem 'rails-controller-testing', '1.0.2' # need to require this one
   gem 'selenium-webdriver', '3.5.2', require: false
-  gem 'simplecov', '0.15.0', require: false
+  gem 'simplecov', '0.15.1', require: false
   gem 'webmock', '3.0.1', require: false
 end
 
