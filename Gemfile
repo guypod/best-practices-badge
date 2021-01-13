@@ -24,7 +24,7 @@ gem 'jquery-ui-rails', '6.0.1' # JavaScript jQueryUI library (for Rails)
 gem 'lograge', '0.9.0' # Simplify logs
 gem 'mail', '2.7.0' # Ruby mail handler
 gem 'octokit', '4.8.0' # GitHub's official Ruby API
-gem 'omniauth-github', '1.3.0' # Authentication to GitHub (get project info)
+gem 'omniauth-github', '2.0.0' # Authentication to GitHub (get project info)
 gem 'paleta', '0.3.0' # Color manipulation, used for badges
 gem 'paper_trail', '8.1.2' # Record previous versions of project data
 gem 'pg', '0.21.0' # PostgreSQL database, used for data storage
@@ -33,7 +33,7 @@ gem 'puma', '3.11.2' # Faster webserver; recommended by Heroku
 gem 'rack-cors', '1.0.2' # Enable CORS so JavaScript clients can get JSON
 gem 'rails', '5.1.4' # Our web framework
 gem 'rails-i18n', '5.0.4' # Localizations for Rails built-ins
-gem 'redcarpet', '3.4.0' # Process markdown in form textareas (justifications)
+gem 'redcarpet', '3.5.1' # Process markdown in form textareas (justifications)
 gem 'sass-rails', '5.0.7', require: false
 gem 'scout_apm', '2.4.3' # Monitor for memory leaks
 gem 'secure_headers', '5.0.4' # Add hardening measures to HTTP headers
