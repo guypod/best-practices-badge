@@ -16,7 +16,7 @@ gem 'bootstrap_form', '2.7.0'
 gem 'chartkick', '2.2.5' # Chart project_stats
 gem 'coffee-rails', '4.2.2', require: false # CoffeeScript Javascript preproc
 gem 'fastly-rails', '0.8.0'
-gem 'font-awesome-rails', '4.7.0.3'
+gem 'font-awesome-rails', '4.7.0.5'
 gem 'imagesLoaded_rails', '4.1.0' # JavaScript - enable wait for image load
 gem 'jbuilder', '2.7.0'
 gem 'jquery-rails', '4.3.1' # JavaScript jQuery library (for Rails)
@@ -26,15 +26,15 @@ gem 'mail', '2.7.0' # Ruby mail handler
 gem 'octokit', '4.8.0' # GitHub's official Ruby API
 gem 'omniauth-github', '1.3.0' # Authentication to GitHub (get project info)
 gem 'paleta', '0.3.0' # Color manipulation, used for badges
-gem 'paper_trail', '8.1.2' # Record previous versions of project data
+gem 'paper_trail', '9.0.0' # Record previous versions of project data
 gem 'pg', '0.21.0' # PostgreSQL database, used for data storage
 gem 'pg_search', '2.1.2' # PostgreSQL full-text search
 gem 'puma', '3.11.2' # Faster webserver; recommended by Heroku
 gem 'rack-cors', '1.0.2' # Enable CORS so JavaScript clients can get JSON
-gem 'rails', '5.1.4' # Our web framework
-gem 'rails-i18n', '5.0.4' # Localizations for Rails built-ins
+gem 'rails', '6.0.3.5' # Our web framework
+gem 'rails-i18n', '6.0.0' # Localizations for Rails built-ins
 gem 'redcarpet', '3.4.0' # Process markdown in form textareas (justifications)
-gem 'sass-rails', '5.0.7', require: false
+gem 'sass-rails', '5.0.8', require: false
 gem 'scout_apm', '2.4.3' # Monitor for memory leaks
 gem 'secure_headers', '5.0.4' # Add hardening measures to HTTP headers
 gem 'uglifier', '4.1.3', require: false # Minify JavaScript
@@ -46,7 +46,7 @@ group :development, :test do
   gem 'bullet', '5.7.2' # Avoid n+1 queries
   gem 'bundler-audit', '0.6.0'
   gem 'database_cleaner', '1.6.2' # Cleans up database between tests
-  gem 'dotenv-rails', '2.2.1'
+  gem 'dotenv-rails', '2.7.0'
   gem 'eslintrb', '2.1.0'
   gem 'json', '2.1.0'
   gem 'license_finder', '5.0.0'
@@ -86,7 +86,7 @@ group :test do
   gem 'minitest-reporters', '1.1.19', require: false
   gem 'minitest-retry', '0.1.9', require: false # Avoid Capybara false positives
   gem 'poltergeist', '1.17.0', require: false
-  gem 'rails-controller-testing', '1.0.2' # need to require this one
+  gem 'rails-controller-testing', '1.0.3' # need to require this one
   gem 'selenium-webdriver', '3.8.0', require: false
   gem 'simplecov', '0.15.1', require: false
   gem 'webmock', '3.3.0', require: false
