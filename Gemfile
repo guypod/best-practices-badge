@@ -16,7 +16,7 @@ gem 'bootstrap_form', '2.7.0'
 gem 'chartkick', '2.2.5' # Chart project_stats
 gem 'coffee-rails', '4.2.2', require: false # CoffeeScript Javascript preproc
 gem 'fastly-rails', '0.8.0'
-gem 'font-awesome-rails', '4.7.0.3'
+gem 'font-awesome-rails', '4.7.0.4'
 gem 'imagesLoaded_rails', '4.1.0' # JavaScript - enable wait for image load
 gem 'jbuilder', '2.7.0'
 gem 'jquery-rails', '4.3.1' # JavaScript jQuery library (for Rails)
@@ -31,7 +31,7 @@ gem 'pg', '0.21.0' # PostgreSQL database, used for data storage
 gem 'pg_search', '2.1.2' # PostgreSQL full-text search
 gem 'puma', '3.11.2' # Faster webserver; recommended by Heroku
 gem 'rack-cors', '1.0.2' # Enable CORS so JavaScript clients can get JSON
-gem 'rails', '5.1.4' # Our web framework
+gem 'rails', '5.2.4.6' # Our web framework
 gem 'rails-i18n', '5.0.4' # Localizations for Rails built-ins
 gem 'redcarpet', '3.4.0' # Process markdown in form textareas (justifications)
 gem 'sass-rails', '5.0.7', require: false
@@ -46,7 +46,7 @@ group :development, :test do
   gem 'bullet', '5.7.2' # Avoid n+1 queries
   gem 'bundler-audit', '0.6.0'
   gem 'database_cleaner', '1.6.2' # Cleans up database between tests
-  gem 'dotenv-rails', '2.2.1'
+  gem 'dotenv-rails', '2.2.2'
   gem 'eslintrb', '2.1.0'
   gem 'json', '2.1.0'
   gem 'license_finder', '5.0.0'
